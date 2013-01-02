@@ -1,0 +1,19 @@
+td.ball1 { background-image: url('ballred-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;} 
+td.ball2 { background-image: url('ballgreen-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.ball3 { background-image: url('ballblue-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.ball4 { background-image: url('ballyellow-xsmall.png'); text-align: center; vertical-align: middle; color: black; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.ball5 { background-image: url('ballpink-xsmall.png'); text-align: center; vertical-align: middle; color: black; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.ball6 { background-image: url('ballorange-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+
+td.TBball1 { background-image: url('ballred-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;} 
+td.TBball2 { background-image: url('ballgreen-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.TBball3 { background-image: url('ballblue-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat;  border: none;}
+td.TBball4 { background-image: url('ballyellow-xsmall.png'); text-align: center; vertical-align: middle; color: black; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.TBball5 { background-image: url('ballpink-xsmall.png'); text-align: center; vertical-align: middle; color: black; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.TBball6 { background-image: url('ballorange-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+
+td.Euroball { background-image: url('ballblue-xsmall.png'); text-align: center; vertical-align: middle; color: white; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+td.EuroStar { background-image: url('Star-xsmall.png'); text-align: center; vertical-align: middle; color: black; font-weight: bolder; font-size: small; height: 16px; width: 16px; background-repeat: no-repeat; border: none;}
+
+td.ballempty { background-image: none; width: 1px; }
+

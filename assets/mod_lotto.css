@@ -1,0 +1,55 @@
+/** Part of mod_lotto
+
+Copyright (C) 2012 Ben Tasker
+Released under GNU GPL V2
+See License.txt
+
+*/
+
+.LottoSubmit {border-radius: 5px; border: none;}
+.LottoSelect {border-radius: 5px; border: none;}
+.lottoNumber {border-radius: 5px; border: 1px solid #e52d34; width: 30px;}
+.lottoNumber:hover {border-radius: 5px; border: 1px solid #2000FF; width: 30px;}
+.LottoLatest {border: none;}
+.TBLatest{ border: none;}
+.EuroLatest{ border: none;}
+.modlottoLDs {border: none;}
+.modlottoResults { border: none;}
+.LottoLatestHead { font-weight: bolder; }
+.TBLatestHead { font-weight: bolder; }
+#DrawSelect {border-radius: 5px;}
+#GameSelect {border-radius: 5px;}
+#ResCheckSelectYear {border-radius: 5px;}
+#ResCheckSelect {border-radius: 5px;}
+#LuckyDipsSelect {border-radius: 5px;}
+.LottoBonusText{padding-left: 10px; border: none;}
+.LottoResDrawDate{border: none;}
+tr.latestresult {border: none;}
+.modlottoResultsHead{border: none; text-align: center;}
+.YouMatched {text-align: center; border: none;}
+.Usermatchhead {border: none; text-align: center;}
+.LottoResDrawDate{border: none; text-align: center; padding-right: 5px;}
+#Usercheckbg {background: #e52d34; color: #ffffff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-weight: bolder; width: auto;}
+#bulklottoresults{padding-top: 15px;}
+#checkuserlotto{padding-top: 15px;}
+#dispLDs{padding-top: 15px;}
+#lottolatestRes{padding-top: 15px;}
+#TBLatestRes{padding-top: 15px;}
+#EuroLatestRes{padding-top: 15px;}
+.modLottoPredictHolder {padding: 5px;}
+.LottoPurchaseLink {padding-top: 15px; padding-bottom: 10px;}
+.nocheckembedhead {padding-top: 5px; color: #ffffff !important}
+
+.EurUsermatchhead {border: none; text-align: center;}
+#EurUsercheckbg {background: #2000FF; color: #ffffff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-weight: bolder; width: auto;}
+.eurnocheckembedhead {padding-top: 5px; color: #ffffff !important}
+.EurNumber {border-radius: 5px; border: 1px solid #2000FF; width: 30px;}
+.EurNumber:hover {border-radius: 5px; border: 1px solid #e52d34; width: 30px;}
+.EurSubmit {border-radius: 5px; border: none;}
+.EurSelect {border-radius: 5px; border: none;}
+#dispELDs{padding-top: 15px;}
+.modlottoELDs {border: none;}
+
+
+
+
