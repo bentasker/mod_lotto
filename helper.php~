@@ -32,58 +32,6 @@ return $this->params->get('APIKEY', '9c59922ab287d59d06011a4c91a21fcf');
 
 
 
-     function generateTBluckydip($number){
-      // Are we using the API or generating on site?
-      if ($this->params->get('useLDAPI')){
-
-      return $this->place_request('TLD','2',"no=$number");
-	  }else{
-
-	// This is not as random as the method use by the API, but someone could still win!
-
-
-	// Generate the numbers
-
-	  $x = 1;
-
-	// Enforce the 10 limit to avoid accidental DoS
-	if ($number > 10){ $number = 10; }
-	 while ($x <= $number){
-	      
-	      $a = 1;
-	      $str = ".";
-		      // Generate 6 numbers
-			while ($a <= 5){
-			    $no = rand(1,39);
-			    if (strpos($str,".". $no . ".") == false){
-			    $str .= $no;
-			    if ($a != 5){ $str .= "."; }
-			    $a++;
-			    }
-			    }
-
-	      // Numbers generated, now add them to an object
-
-	      $str = substr($str,1,strlen($str) - 1);
-	      $balls = explode(".",$str);
-	      sort($balls);
-
-	      $balls[5] = rand(1,14);
-
-	      $LDs["dip$x"] = $balls;
-
-	      $x++;
-	      }
-	return $LDs;
-
-	}
-      }
-
-
-
-
-
-
        function generateEuroluckydip($number){
       // Are we using the API or generating on site?
       if ($this->params->get('useLDAPI')){

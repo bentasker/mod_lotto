@@ -10,7 +10,7 @@
 	<license>GNU General Public License version 2</license>
 	<authorEmail>LottoPredict@bentasker.co.uk</authorEmail>
 	<authorUrl>bentasker.co.uk</authorUrl>
-	<version>1.3</version>
+	<version>1.0</version>
 	<description>A Module designed to show results from the UK National Lottery. Also allows users to generate Lucky Dips and to check their numbers against past draws</description>
 	<!-- Runs on install/uninstall/update; New in 1.6 -->
 	<!--<scriptfile>script.php</scriptfile>-->
@@ -309,47 +309,6 @@
 						
 											
 				</field>
-				
-				
-				
-				
-				
-				<field
-					name="DispTLDs"
-					type="list"
-					default="0"
-					label="Automatically Generate A Lucky Dip"
-					description="Display a Lucky Dip to the user" >
-				
-						
-						<option 
-						value="1">Yes</option>
-						
-						<option 
-						value="0">No</option>
-						
-											
-				</field>
-				
-				
-				<field
-					name="GenTLDs"
-					type="list"
-					default="0"
-					label="Display Lucky Dip Form"
-					description="Display a form allowing user to generate up to 10 Lucky Dips" >
-				
-						
-						<option 
-						value="1">Yes</option>
-						
-						<option 
-						value="0">No</option>
-						
-											
-				</field>
-				
-				
 				
 				</fieldset>
 				

@@ -50,13 +50,6 @@ require_once('default_tblatestres.php');
 }
 
 
-
-if ($params->get('DispTLDs')){
-
-require_once('default_dispTLDS.php');
-}
-
-
 // Should we display the latest Euro results?
 if ($params->get('DispLatestEuroResults')){
 
